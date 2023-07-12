@@ -11,9 +11,11 @@
 
 [四、Docker部署](#四Docker部署)
 
-# 一、简介
+# 一、说明
 
-基于[uu6/llxhq](https://github.com/uu6/llxhq)修改，用于测试流量设备的稳定性
+- 基于[uu6/llxhq](https://github.com/uu6/llxhq)修改，用于测试流量设备的稳定性
+- origin为原版界面
+- dist中为定制改版界面
 
 # 二、展示
 
