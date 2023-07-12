@@ -13,15 +13,8 @@
 	<link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="res/layer.css" id="layuicss-layer">
     <script src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
-    <!-- <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?25b770e160a55cf023c304174b63571f";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script> -->
+    <!--umami统计-->
+    <script async src="https://umami.siriling.com:81/script.js" data-website-id="eeab9388-ab6e-4ca3-a9ec-86e4476f91dd"></script>
 </head>
 
 <body class="nk-body npc-invest bg-lighter no-touch nk-nio-theme" style="cursor:pointer">
@@ -140,7 +133,7 @@
                     </div>
                     <div class="card card-preview">
                         <div class="card-inner mt-3">
-                            <div class="nya-title nk-ibx-action-item progress-rating"><em class="icon ni ni-info"></em><span class="nk-menu-text font-weight-bold">测试设置</span></div>
+                            <div class="nya-title nk-ibx-action-item progress-rating"><em class="icon ni ni-setting"></em><span class="nk-menu-text font-weight-bold">测试设置</span></div>
                             <div class="form-group"><label class="form-label">测试地址</label>
                                 <div class="form-control-wrap">
                                     <select id='select' onchange="document.getElementById('link').value=this.options[this.selectedIndex].value;setCookie('select',this.selectedIndex,365);" type="text" class="form-control">
@@ -223,7 +216,7 @@
 
                     <div class="card card-preview">
                         <div class="card-inner">
-                            <div class="nya-title nk-ibx-action-item progress-rating"><em class="icon ni ni-info"></em><span class="nk-menu-text font-weight-bold">出口地址</span></div>
+                            <div class="nya-title nk-ibx-action-item progress-rating"><em class="icon ni ni-location"></em><span class="nk-menu-text font-weight-bold">出口地址</span></div>
                             <div class="accordion-inner">
                                 <li class="nk-menu-item ">
                                     <a class="text-waring" style="pointer-events:none;" id="ipcn">Loading...</a>
@@ -243,8 +236,7 @@
         <div class="nk-footer nk-footer-fluid bg-lighter">
             <div class="container-xl">
                 <div class="nk-footer-wrap">
-                    <div class="nk-footer-copyright"> © 2023 <a href="https://blog.siriling.com:1212">Siriling </a>丨<a href="https://github.com/Siriling/traffic-killer"> 源码</a>
-                    </div>
+                    <div class="nk-footer-copyright"> © 2023 <a href="https://blog.siriling.com:1212">Siriling </a>丨<a href="https://github.com/Siriling/traffic-killer"> 源码</a></div>
                 </div>
             </div>
         </div>

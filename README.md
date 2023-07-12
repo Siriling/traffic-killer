@@ -21,13 +21,17 @@
 
 https://siriling.github.io/traffic-killer/dist
 
-Control
+Note
 
-![control](images/control.png)
+![note](images/note.png)
 
-Monitor
+Setting
 
-![monitor](images/monitor.png)
+![setting](images/setting.png)
+
+Other
+
+![other](images/other.png)
 
 # 三、使用
 
@@ -41,10 +45,6 @@ Monitor
 1. Docker部署Nginx服务
 2. 下载dist文件夹
 3. 放到Nginx的www文件夹中
-
-
-
-
 
 
 

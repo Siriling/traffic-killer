@@ -26,6 +26,8 @@
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4745983596040533"
 	     crossorigin="anonymous">
     </script>
+    <!--umami统计-->
+    <script async src="https://umami.siriling.com:81/script.js" data-website-id="eeab9388-ab6e-4ca3-a9ec-86e4476f91dd"></script>
 </head>
 <body class="nk-body npc-invest bg-lighter " style="cursor:pointer">
     <!-- wrap @s -->
@@ -134,12 +136,10 @@
 <div class="col-sm-12 col-md-10 col-xl-8 center-block">
     <div class="card card-preview">
         <div class="card-inner mt-3">
-            <div class="nya-title nk-ibx-action-item progress-rating">
-                <span class="nk-menu-text font-weight-bold">流量杀手</span>
-            </div>
+            <div class="nya-title nk-ibx-action-item progress-rating"><em class="icon ni ni-setting"></em><span class="nk-menu-text font-weight-bold">测试设置</span></div>
             <div class="form-group">
 			<p>小贴士：速度不满意？请尝试手工切换节点，加大线程</p>
-                <label class="form-label">下载链接</label>
+                <label class="form-label">测试地址</label>
                 <div class="form-control-wrap">
 		<select  type="text" v-model="set.input"  class="form-control">
 			<option value="https://cachefly.cachefly.net/100mb.test" selected = "selected">Default [推荐]</option>
@@ -234,27 +234,25 @@
     </div>
     <div class="card card-preview">
         <div class="card-inner">
-            <h6><em class="icon ni ni-info"></em> 工具说明</h6>
+            <div class="nya-title nk-ibx-action-item progress-rating"><em class="icon ni ni-info"></em><span class="nk-menu-text font-weight-bold">工具说明</span></div>
             <div class="accordion-inner">
-                <p>多线程消耗流量，web版流量杀手</p>
-                <p>此工具可以以浪费的形式消耗你的流量</p>
-                <p>如果是要消耗机场流量，建议使用海外节点，速度可能会更快</p>
-
-                <p>小贴士：如手机套餐内含头条系，阿里系，百度系等定向流量，填写免流量的资源URL，即可直接消耗免费的定向流量</p>
-                <p>注：虽支持可自定义下载地址 但无法请求跨域链接</p>
+                <div class="title"><span class="dot dot-lg sq" data-bg="#f9db7b" style="background: rgb(249, 219, 123);"></span>&nbsp;<span>此工具可以以浪费的形式消耗你的流量</span></div>
+                <div class="title"><span class="dot dot-lg sq" data-bg="#9cabff" style="background: rgb(156, 171, 255);"></span>&nbsp;<span>虽支持可自定义地址 但无法请求跨域链接</span></div>
+                <div class="title"><span class="dot dot-lg sq" data-bg="#ffa9ce" style="background: rgb(255, 169, 206);"></span>&nbsp;<span>速度不满意？请尝试手动切换节点，加大运行线程</span></div>
+                <div class="title"><span class="dot dot-lg sq" data-bg="#f98c45" style="background: rgb(249, 140, 69);"></span>&nbsp;<span>消耗机场流量，建议使用海外节点，速度可能会更快</span></div>
+                <div class="title"><span class="dot dot-lg sq" data-bg="#b8acff" style="background: rgb(184, 172, 255);"></span>&nbsp;<span>点击总流量板块可设置流量上限，以防止流量丢失，为你的流量保驾护航</span></div>
+                <div class="title"><span class="dot dot-lg sq" data-bg="#8feac5" style="background: rgb(143, 234, 197);"></span>&nbsp;<span>手机套餐内含头条系、阿里系、百度系等定向流量，填写免流量资源地址或选择对应定向包的测速节点，可消耗定向流量(非百分百准确)</span></div>
                 <hr>
-                <p> 感谢您对流量消耗事业做出的贡献!</p>
-                <p>您的访问信息如下：</p>
-                    <li class="nk-menu-item ">
-                    <p class="text-danger"><script>ipinfo()</script></p> 
-                    </li>
-                    <p><img src="https://ip.vv1234.cn/ipx/" onError="this.src='https://tool.lu/netcard/'"></p>
-                </p>
+                <div class="title"><span class="dot dot-lg sq" data-bg="#b8acff" style="background: rgb(188, 12, 74);"></span>&nbsp;<span>您的访问信息如下：</span></div>
+                <li class="nk-menu-item ">
+                    <p class="text-danger"><script>ipinfo()</script></p>
+                </li>
+                <p><img src="https://ip.vv1234.cn/ipx/" onError="this.src='https://tool.lu/netcard/'"></p>
                 <a href="old-index.html" class="nk-menu-link nk-ibx-action-item">→ 点我切换回旧版 ←</a>
                 <hr>
-                <p>最近更新:  <a href="version-update.html" target="_blank" rel="noopener" data-pjax-state="">20220822</a></p>
-                <p>功能优化：对于网络波动及第三方资源访问故障等网络错误问题造成的执行中断，改为仍然强制执行!</p>
-                <p>为降低终端设备CPU占用，暂时关闭网页特效，默认线程调整为1</p>
+                <div class="title"><span class="dot dot-lg sq" data-bg="#b8acff" style="background: rgb(184, 172, 255);"></span>&nbsp;<span>最近更新:  <a href="version-update.html" target="_blank" rel="noopener" data-pjax-state="">20220822</a></span></div>
+                <div class="title"><span class="dot dot-lg sq" data-bg="#b8acff" style="background: rgb(184, 172, 255);"></span>&nbsp;<span>功能优化：对于网络波动及第三方资源访问故障等网络错误问题造成的执行中断，改为仍然强制执行!</span></div>
+                <div class="title"><span class="dot dot-lg sq" data-bg="#b8acff" style="background: rgb(184, 172, 255);"></span>&nbsp;<span>功能优化：对于网络波动及第三方资源访问故障等网络错误问题造成的执行中断，改为仍然强制执行!</span></div>
                 <hr>
                 <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/JjhvoI5bfYbANJBZ/quote.js?theme=0&f=12&display=1,1,1,1,0,1,1,1"></script>
             </div>
@@ -279,7 +277,7 @@
 <div class="nk-footer nk-footer-fluid bg-lighter">
     <div class="container-xl">
         <div class="nk-footer-wrap">
-            <div class="nk-footer-copyright"> &copy; 2023 <a href='https://blog.siriling.com:1212'>Siriling </a></div>
+            <div class="nk-footer-copyright"> &copy; 2023 <a href='https://blog.siriling.com:1212'>Siriling </a>丨<a href="https://github.com/Siriling/traffic-killer"> 源码</a></div>
 		</div>
     </div>
 </div>
