@@ -21,8 +21,13 @@
 
 https://siriling.github.io/traffic-killer/dist
 
-![show](images/screenshot.png)
+Control
 
+![control](images/control.png)
+
+Monitor
+
+![monitor](images/monitor.png)
 
 # 三、使用
 
