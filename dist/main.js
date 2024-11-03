@@ -164,7 +164,7 @@ function ipcn() {
             .then(response => response.json())
             .then(data => {
                 var tag = document.getElementById("ipcn")
-                tag.innerText = data['remote_addr'] + ' ' + data['remote_addr_location'] + ' ' + data['city'] + ' ' + data['distinct'] + ' ' + data['isp']
+                tag.innerText = data['remote_addr'] + ' ' + data['remote_addr_location.city'] + ' ' + data['city'] + ' ' + data['remote_addr_location.distinct'] + ' ' + data['remote_addr_location.isp']
                 if (data['ip'] !== cnip) {
                     tag.style.color = ''
                     ckip(data['ip'], tag)
