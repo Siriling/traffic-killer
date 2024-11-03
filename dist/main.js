@@ -160,11 +160,11 @@ var cnip = ''
 
 function ipcn() {
     if (visibl) {
-        fetch('https://forge.speedtest.cn/api/location/info', { referrerPolicy: 'no-referrer' })
+        fetch('https://pubstatic.b0.upaiyun.com/?_upnode', { referrerPolicy: 'no-referrer' })
             .then(response => response.json())
             .then(data => {
                 var tag = document.getElementById("ipcn")
-                tag.innerText = data['ip'] + ' ' + data['province'] + ' ' + data['city'] + ' ' + data['distinct'] + ' ' + data['isp']
+                tag.innerText = data['remote_addr'] + ' ' + data['province'] + ' ' + data['city'] + ' ' + data['distinct'] + ' ' + data['isp']
                 if (data['ip'] !== cnip) {
                     tag.style.color = ''
                     ckip(data['ip'], tag)
