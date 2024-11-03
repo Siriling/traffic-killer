@@ -160,7 +160,7 @@ var cnip = ''
 
 function ipcn() {
     if (visibl) {
-        fetch('https://webapi-pc.meitu.com/common/ip_location', { referrerPolicy: 'no-referrer' })
+        fetch('https://api-v3.speedtest.cn/ip', { referrerPolicy: 'no-referrer' })
             .then(response => response.json())
             .then(data => {
                 var tag = document.getElementById("ipcn")
