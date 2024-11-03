@@ -20,7 +20,7 @@
 
 # 二、展示
 
-https://siriling.github.io/traffic-killer/dist
+https://ababy520.github.io/traffic-killer/dist/
 
 Note
 
