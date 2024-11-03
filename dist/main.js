@@ -160,11 +160,11 @@ var cnip = ''
 
 function ipcn() {
     if (visibl) {
-        fetch('https://pubstatic.b0.upaiyun.com/?_upnode', { referrerPolicy: 'no-referrer' })
+        fetch('https://webapi-pc.meitu.com/common/ip_location', { referrerPolicy: 'no-referrer' })
             .then(response => response.json())
             .then(data => {
                 var tag = document.getElementById("ipcn")
-                tag.innerText = data['remote_addr'] + ' ' + data['remote_addr_location.city'] + ' ' + data['city'] + ' ' + data['remote_addr_location.distinct'] + ' ' + data['remote_addr_location.isp']
+                tag.innerText = data['ip'] + ' ' + data['province'] + ' ' + data['city'] + ' ' + data['distinct'] + ' ' + data['isp']
                 if (data['ip'] !== cnip) {
                     tag.style.color = ''
                     ckip(data['ip'], tag)
