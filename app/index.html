@@ -49,7 +49,7 @@
                         <div class="card-inner">
                             <div class="nya-title nk-ibx-action-item progress-rating"><em class="icon ni ni-info"></em><span class="nk-menu-text font-weight-bold">工具说明</span></div>
                             <div class="accordion-inner">
-                                <div class="title"><span class="dot dot-lg sq" data-bg="#9cabff" style="background: rgb(156, 171, 255);"></span>&nbsp;<span>虽支持可自定义地址 但无法请求跨域链接</span></div>
+                                <div class="title"><span class="dot dot-lg sq" data-bg="#9cabff" style="background: rgb(156, 171, 255);"></span>&nbsp;<span>虽支持可自定义地址 但无法请求跨域链接,可安装 [<a href="https://chromewebstore.google.com/webstore/detail/mjhpgnbimicffchbodmgfnemoghjakai" target="_blank">CORS</a>]</span></div>
                                 <div class="title"><span class="dot dot-lg sq" data-bg="#ffa9ce" style="background: rgb(255, 169, 206);"></span>&nbsp;<span>速度不满意？请尝试手动切换节点，加大运行线程</span></div>
                                 <div class="title"><span class="dot dot-lg sq" data-bg="#f98c45" style="background: rgb(249, 140, 69);"></span>&nbsp;<span>消耗机场流量，建议使用海外节点，速度可能会更快</span></div>
                                 <div class="title"><span class="dot dot-lg sq" data-bg="#b8acff" style="background: rgb(184, 172, 255);"></span>&nbsp;<span>点击总流量板块可设置流量上限，以防止流量丢失，为你的流量保驾护航</span></div>
@@ -66,6 +66,9 @@
                                     <select id='select' onchange="document.getElementById('link').value=this.options[this.selectedIndex].value;setCookie('select',this.selectedIndex,365);" type="text" class="form-control">
                                         <option value="" id="diy">自定义</option>
                                         <option selected="selected" value="https://issuecdn.baidupcs.com/issue/netdisk/apk/BaiduNetdiskSetup_wap_share.apk">百度CDN [高速]</option>
+										<option value="https://dldir1v6.qq.com/qqfile/qq/TIM3.5.1/TIM3.5.1.22172.exe">TIM [高速]</option>
+										<option value="https://lain.bgm.tv/r/400/pic/cover/l/8f/03/509947_yEeWw.jpg">BGM</option>
+										<option value="https://lf9-apk.ugapk.cn/package/apk/jj_app/2632_67600/jj_app_h5_homepage_v2632_67600_c8e7_1760340916.apk">掘金</option>
                                         <option value="https://kodo-toolbox.qiniu.com/kodo-browser-Linux-x64-v1.0.17.zip">七牛云CDN [高速]</option>
                                         <option value="https://img.alicdn.com/imgextra/i1/O1CN01xA4P9S1JsW2WEg0e1_!!6000000001084-2-tps-2880-560.png">阿里CDN</option>
                                         <option value="https://game.gtimg.cn/images/nz/web202106/index/bc_part1.gif?0.3190485611376561">腾讯CDN</option>
@@ -78,8 +81,19 @@
                                         <option value="https://img.cmvideo.cn/publish/noms/2022/10/14/1O3VIGPVP6HTS.jpg">咪咕视频</option>
                                         <option value="https://img.mcloud.139.com/material_prod/material_media/20221128/1669626861087.png">和彩云</option>
                                         <option value="https://vod-origin-rjzy.gdoss.xstore.ctyun.cn/07da9eb52ad948c7b58b760003c0006b.mp4">天翼云</option>
+										<option value="https://csdn-app.csdn.net/csdn.apk">CORS CSDN</option>
+										<option value="https://down.pc.yyb.qq.com/channel/2786/2500800000/com_aiyu_kaipanla_installer.exe">CORS 应用宝</option>
+										<option value="ttps://dl.coolapk.com/down?pn=com.coolapk.market&id=NDU5OQ&h=46bb9d98&from=from-web">CORS 酷安</option>
+										<option value="https://dl.hdslb.com/mobile/latest/android64/iBiliPlayer-html5_app_bili.apk">CORS 哔哩哔哩</option>
                                         <option value="https://cachefly.cachefly.net/100mb.test">Cachefly Test [Global]</option>
                                         <option value="https://speed.cloudflare.com/__down?bytes=1073741824">Cloudflare Speed [Global]</option>
+										<option value="https://community.steamstatic.com/public/images//sharedfiles/searchbox_workshop_submit.gif">Steam community</option>
+										<option value="https://github.com/images/modules/search/mona-love-2x.png">CORS Github</option>
+										<option value="https://github.com/PixelGuys/Cubyz/releases/download/0.0.1/Windows-x86_64.zip">CORS Github Releases</option>
+										<option value="https://github.githubassets.com/favicons/favicon-dark.png">CORS github.githubassets.com</option>
+										<option value="https://raw.githubusercontent.com/PixelGuys/Cubyz/refs/heads/master/assets/cubyz/logo.png">CORS raw.githubusercontent.com</option>
+										<option value="https://www.twitch.tv/favicon.ico">CORS Twitch</option>
+										<option value="https://assets.twitch.tv/config/manifest.json">CORS assets.twitch.tv</option>
                                     </select>
                                     <input value="" oninput="document.getElementById('select').selectedIndex=0;document.getElementById('diy').value=this.value;setCookie('diy',this.value,365);setCookie('select',0,365);" type="text" id="link" placeholder="请输入下载链接" autocomplete="off" class="form-control">
                                 </div>
