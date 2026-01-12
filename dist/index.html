@@ -122,7 +122,7 @@
                         <div class="card-inner">
                             <div class="nya-title nk-ibx-action-item progress-rating"><em class="icon ni ni-info"></em><span class="nk-menu-text font-weight-bold">工具说明</span></div>
                             <div class="accordion-inner">
-                                <div class="title"><span class="dot dot-lg sq" data-bg="#9cabff" style="background: rgb(156, 171, 255);"></span>&nbsp;<span>虽支持可自定义地址 但无法请求跨域链接</span></div>
+                                <div class="title"><span class="dot dot-lg sq" data-bg="#9cabff" style="background: rgb(156, 171, 255);"></span>&nbsp;<span>虽支持可自定义地址 但无法请求跨域链接,可安装 [<a href="https://chromewebstore.google.com/webstore/detail/mjhpgnbimicffchbodmgfnemoghjakai" target="_blank">CORS</a>],[<a href="https://github.com/uazo/cromite" target="_blank">cromite 浏览器</a>]可安装扩展</span></div>
                                 <div class="title"><span class="dot dot-lg sq" data-bg="#ffa9ce" style="background: rgb(255, 169, 206);"></span>&nbsp;<span>速度不满意？请尝试手动切换节点，加大运行线程</span></div>
                                 <div class="title"><span class="dot dot-lg sq" data-bg="#f98c45" style="background: rgb(249, 140, 69);"></span>&nbsp;<span>消耗机场流量，建议使用海外节点，速度可能会更快</span></div>
                                 <div class="title"><span class="dot dot-lg sq" data-bg="#b8acff" style="background: rgb(184, 172, 255);"></span>&nbsp;<span>点击总流量板块可设置流量上限，以防止流量丢失，为你的流量保驾护航</span></div>
@@ -138,8 +138,13 @@
                                 <div class="form-control-wrap">
                                     <select id='select' onchange="document.getElementById('link').value=this.options[this.selectedIndex].value;setCookie('select',this.selectedIndex,365);" type="text" class="form-control">
                                         <option value="" id="diy">自定义</option>
-                                        <option selected="selected" value="https://issuecdn.baidupcs.com/issue/netdisk/apk/BaiduNetdiskSetup_wap_share.apk">百度CDN [高速]</option>
-                                        <option value="https://kodo-toolbox.qiniu.com/kodo-browser-Linux-x64-v1.0.17.zip">七牛云CDN [高速]</option>
+                                        <option selected="selected" value="https://lain.bgm.tv/r/400/pic/cover/l/8f/03/509947_yEeWw.jpg">BGM</option>
+										<option value="https://issuecdn.baidupcs.com/issue/netdisk/apk/BaiduNetdiskSetup_wap_share.apk">百度CDN [高速]</option>
+										<option value="https://dldir1v6.qq.com/qqfile/qq/TIM3.5.1/TIM3.5.1.22172.exe">CORS TIM</option>
+										<option value="https://lf9-apk.ugapk.cn/package/apk/jj_app/2632_67600/jj_app_h5_homepage_v2632_67600_c8e7_1760340916.apk">掘金</option>
+                                        <option value="https://cdn-hybrid-prod.hunyuan.tencent.com/Android/business/yuanbao-release-prod-signed-5040.apk">腾讯元宝 [高速]</option>
+                                        <option value="https://img.alicdn.com/tfs/TB1Jf_It.Y1gK0jSZFCXXcwqXXa-506-126.svg">阿里云svg</option>
+                                        <option value="https://ppui-static-pc.cdn.bcebos.com/static/passpc-account/img/login/login-bg.png">阿里cdn png</option>
                                         <option value="https://img.alicdn.com/imgextra/i1/O1CN01xA4P9S1JsW2WEg0e1_!!6000000001084-2-tps-2880-560.png">阿里CDN</option>
                                         <option value="https://game.gtimg.cn/images/nz/web202106/index/bc_part1.gif?0.3190485611376561">腾讯CDN</option>
                                         <option value="https://lf9-cdn-tos.bytecdntp.com/cdn/yuntu-index/1.0.4/case/maiteng/detailbg.png">字节跳动</option>
@@ -149,8 +154,93 @@
                                         <option value="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/funtouch/1651200648928/images/os2-jude-video.mp4">Vivo</option>
                                         <option value="https://d.musicapp.migu.cn/upload/fbpt_rsync_apps/local/signed/MobileMusic7220/MobileMusic7220_0140068.apk">咪咕音乐</option>
                                         <option value="https://img.cmvideo.cn/publish/noms/2022/10/14/1O3VIGPVP6HTS.jpg">咪咕视频</option>
-                                        <option value="https://img.mcloud.139.com/material_prod/material_media/20221128/1669626861087.png">和彩云</option>
+                                        <option value="https://img.mcloud.139.com/material_prod/material_media/20221128/1669626861087.png">和彩云 [高速]</option>
                                         <option value="https://vod-origin-rjzy.gdoss.xstore.ctyun.cn/07da9eb52ad948c7b58b760003c0006b.mp4">天翼云</option>
+                                        <option value="https://dldir1.qq.com/weiyun/Weiyun_6.10.13.974_android_r6a5f81ac_20251205154853_arm64-v8a_release_1.apk">CORS 腾讯微云 [高速]</option>
+                                        <option value="https://m.down.sandai.net/mobile/yunpan_share_h5.apk">CORS 迅雷云 [高速]</option>
+                                        <option value="https://appdownload.alicdn.com/publish/alicloud_shujubao_android/latest/alicloud_shujubao_android_36176427979800.apk">CORS 阿里云盘 [高速]</option>
+                                        <option value="https://umcdn.uc.cn/download/36734/quark/kk@product_wangpan_share1/QuarkBrowser_V10.2.0.995_android_pf3300_(zh-cn)_release_(Build251225160048-arm64).apk">CORS 夸克云</option>
+                                        <option value="https://down.115.com/client/android/115Life_36.2.22.apk">CORS 115云 [高速]</option>
+                                        <option value="https://pack.pan.wo.cn/download/unicom-panapp.apk">CORS 联通网盘</option>
+                                        <option value="https://imgstatic.ctcontents.com/apps/apk/ctfile.apk">城通网盘 [高速]</option>
+                                        <option value="https://res.app.coc.10086.cn/downfile/apk/ChinaMobile10086.apk">CORS 中国移动APP</option>
+                                        <option value="https://appupdates.189.cn/client/ctclientchannel79.apk">CORS 中国电信APP [高速]</option>
+                                        <option value="https://fzapph5.gjfzpt.cn/static/js/app.3c600e51.js">国家反诈中心 [高速]</option>
+										<option value="https://csdn-app.csdn.net/csdn.apk">CORS CSDN</option>
+										<option value="https://down.pc.yyb.qq.com/channel/2786/2500800000/com_aiyu_kaipanla_installer.exe">CORS 应用宝</option>
+										<option value="https://dl.coolapk.com/down?pn=com.coolapk.market&id=NDU5OQ&h=46bb9d98&from=from-web">CORS 酷安</option>
+										<option value="https://dl.hdslb.com/mobile/latest/android64/iBiliPlayer-html5_app_bili.apk">CORS 哔哩哔哩</option>
+                                        <option value="https://s1.hdslb.com/bfs/seed/jinkela/kv-sdk/index.js">哔哩哔哩 js</option>
+                                        <option value="https://mirrors.aliyun.com/debian/pool/main/f/fdroidserver/fdroidserver_2.4.3-1_all.deb">CORS 阿里镜像</option>
+                                        <option value="https://mirrors.tencent.com/debian/pool/main/f/fdroidserver/fdroidserver_2.4.3-1_all.deb">CORS 腾讯镜像</option>
+                                        <option value="https://mirrors.huaweicloud.com/debian/pool/main/f/fdroidserver/fdroidserver_2.4.3-1_all.deb">CORS 华为镜像</option>
+                                        <option value="https://mirrors.163.com/debian/pool/main/f/fdroidserver/fdroidserver_2.4.3-1_all.deb">CORS 网易镜像</option>
+                                        <option value="https://mirrors.sohu.com/debian/pool/main/f/fdroidserver/fdroidserver_2.4.3-1_all.deb">CORS 搜狐镜像</option>
+                                        <option value="https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location">CORS 国家位置</option>
+                                        <option value="https://wappass.baidu.com/static/machine/js/api/mkd.js">CORS 百度js</option>
+                                        <option value="https://passport.baidu.com/passApi/js/wrapper.js">CORS 百度js2</option>
+                                        <option value="https://kodo-toolbox.qiniu.com/kodo-browser-Linux-x64-v1.0.17.zip">七牛云CDN</option>
+										<option value="https://g18.gdl.netease.com/MY_M-1.544.0.exe?key1=b36808e6133a99fbfd0ec3c0e448b4c9&key2=695b0256">梦幻西游：时空</option>
+										<option value="https://my.v.netease.com/2023/0321/83775c7f3227fd6d3489741b372ede95.mp4">梦幻西游：时空 视频</option>
+										<option value="https://xyq.gdl.netease.com/MHXY-JD-3.0.597.exe?key1=70fe324ecf7d3f2f15cedf2c8e2c943f&key2=695b0345">梦幻西游完整包</option>
+										<option value="https://xyq-saishi.fp.ps.netease.com/file/685ce723ca75a9cec35671ffQ4r9FLxe06">梦幻西游 视频</option>
+                                        <option value="https://49d0ffa745701eff54542a5c9807deac.rdt.tfogc.com:49156/imtt.dd.qq.com/sjy.20029/sjy.00004/70F9FEB84B66FE6D/16891/apk/BEDF5CC7AB63BC003CD872489E187C0C.apk">CORS 酷安直链</option>
+                                        <option value="https://www.apple.com/105/media/us/iphone-17/2025/b2c72de3-1cbc-4e24-b4d3-23c7abcec4ec/anim/highlights-front-camera/medium.mp4">苹果视频CDN</option>
+                                        <option value="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/42/0f/e7/420fe707-f195-658c-db19-e366ec3d25f3/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/200x200ia-75.webp">apple 商店</option>
+                                        <option value="https://bchat.beldex.io/js/bootstrap.min.js">CORS 逼聊天</option>
+                                        <option value="https://bchat.beldex.io/img/bchat-video.mp4">CORS 逼聊天 MP4</option>
+                                        <option value="https://challenges.cloudflare.com/turnstile/v0/g/ec4b873d446c/api.js">challenges.cloudflare.com CAPTCHA</option>
+                                        <option value="https://challenges.cloudflare.com/turnstile/v0/g/d39f91d70ce1/api.js">challenges.cloudflare.com js</option>
+                                        <option value="https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/cmg/1">CORS challenges.cloudflare.com</option>
+                                        <option value="https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1">CORS challenges.cloudflare.com api</option>
+                                        <option value="https://static.cloudflareinsights.com/beacon.min.js">CORS static.cloudflareinsights.com</option>
+										<option value="https://www.twitch.tv/favicon.ico">CORS Twitch</option>
+										<option value="https://assets.twitch.tv/config/manifest.json">CORS assets.twitch.tv</option>
+                                        <option value="https://gql.twitch.tv/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js">gql.twitch.tv</option>
+                                        <option value="https://static-cdn.jtvnw.net/ttv-boxart/509658-188x250.jpg">static-cdn.jtvnw.net</option>
+                                        <option value="https://api.github.com/_private/browser/stats">CORS Github api</option>
+										<option value="https://github.com/images/modules/search/mona-love-2x.png">CORS Github</option>
+                                        <option value="https://github.githubassets.com/assets/github-elements-de542b52f7a1.js">github.githubassets.com js</option>
+										<option value="https://github.com/PixelGuys/Cubyz/releases/download/0.0.1/Windows-x86_64.zip">CORS Github Releases</option>
+										<option value="https://github.githubassets.com/favicons/favicon-dark.png">CORS github.githubassets.com</option>
+                                        <option value="https://raw.githubusercontent.com/github/training-kit/main/README.md">raw.githubusercontent.com</option>
+                                        <option value="https://collector.github.com/github/collect">CORS collector.github.com</option>
+										<option value="https://community.steamstatic.com/public/images//sharedfiles/searchbox_workshop_submit.gif">Steam community</option>
+                                        <option value="https://1.1.1.1/cdn-cgi/trace">CORS 1.1.1.1</option>
+                                        <option value="https://engage.cloudflareclient.com/cdn-cgi/trace">engage.cloudflareclient.com</option>
+                                        <option value="https://api.cloudflareclient.com/cdn-cgi/trace">api.cloudflareclient.com</option>
+                                        <option value="https://tor.cloudflare-dns.com/cdn-cgi/trace">tor.cloudflare-dns.com</option>
+                                        <option value="https://one.one.one.one/cdn-cgi/trace">one.one.one.one</option>
+                                        <option value="https://one.one.one.one/media/warp-desktop.png">one.one.one.one png</option>
+                                        <option value="https://1dot1dot1dot1.cloudflare-dns.com/cdn-cgi/trace">1dot1dot1dot1.cloudflare-dns.com</option>
+                                        <option value="https://connectivity.cloudflareclient.com/cdn-cgi/trace">connectivity.cloudflareclient.com</option>
+                                        <option value="https://cp.cloudflare.com/cdn-cgi/trace">CORS cp.cloudflare.com</option>
+                                        <option value="https://cloudflareok.com/cdn-cgi/trace">cloudflareok.com</option>
+                                        <option value="https://v.nostr.build/nb11523.mp4">v.nostr.build mp4</option>
+                                        <option value="https://video.nostr.build/fe70da2b705a0b4b1a2491451e603acb15639b5ba0f5a896385172e4dac18561.mp4">video.nostr.build mp4</option>
+                                        <option value="https://i.imgur.com/XBkv9Pn.mp4">i.imgur.com video</option>
+                                        <option value="https://i.imgur.com/qsSOQCW.mp4">i.imgur.com</option>
+                                        <option value="https://vpn-api.proton.me/vpn/v1/streamingservices">CORS vpn-api.proton.me</option>
+                                        <option value="https://vpn-api.proton.me/vpn/v1/servers/Oh83ml1mt08dVDQkPS2CQm7DqvwYBFg2t7yP_NywbGot-KwB5DqhinvrTFVjr3KLzRDWzCQKZSJY5vBDVh4wPQ==">CORS vpn-api.proton.me v1</option>
+                                        <option value="https://www.deepl.com/_next/static/chunks/webpack-3c710c481e71fe88.js">CORS deepl</option>
+                                        <option value="https://www.deepl.com/_next/static/css/888e3aa2d11c05e8.css">CORS deepl css</option>
+                                        <option value="https://f-droid.org/css/main.css">CORS F-Droid</option>
+                                        <option value="https://forum.f-droid.org/service-worker.js">F-Droid forum</option>
+                                        <option value="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css">cdnjs.cloudflare.com</option>
+                                        <option value="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js">cdn.jsdelivr.net</option>
+                                        <option value="https://huggingface.co/js/script.js">CORS huggingface.co</option>
+                                        <option value="https://huggingface.co/front/build/kube-1c59474/index.js">CORS hf.co</option>
+                                        <option value="https://d2v02itv0y9u9t.cloudfront.net/dist/1.1.7/v6s.js">CORS d2v02itv0y9u9t.cloudfront.net</option>
+                                        <option value="https://m.stripe.network/out-4.5.45.js">CORS hf js</option>
+                                        <option value="https://js.stripe.com/v3/">js.stripe.com</option>
+                                        <option value="https://js.stripe.com/v3/fingerprinted/js/m-outer-15a2b40a058ddff1cffdb63779fe3de1.js">hf stripe</option>
+                                        <option value="https://de5282c3ca0c.edge.sdk.awswaf.com/de5282c3ca0c/526cf06acb0d/challenge.js">CORS hf sdk [高速]</option>
+                                        <option value="https://sb.scorecardresearch.com/beacon.js">CORS sb.scorecardresearch.com</option>
+                                        <option value="https://link.storjshare.io/raw/jxzeujpnswlqush53o6dah22j3ma/vidzy/f3aeadc1c42b4b908d03ee07f881b65a.mp4">mp4</option>
+                                        <option value="https://paste.crdroid.net/assets/js/modules/api.js">paste.crdroid.net</option>
+                                        <option value="https://join-lemmy.org/static/assets/icons/favicon.svg">CORS Lemmy</option>
+                                        <option value="https://chatgpt.com/favicon.ico">CORS chatGPT</option>
+                                        <option value="https://openai.com/cdn-cgi/challenge-platform/scripts/jsd/main.js">CORS openai</option>
                                         <option value="https://cachefly.cachefly.net/100mb.test">Cachefly Test [Global]</option>
                                         <option value="https://speed.cloudflare.com/__down?bytes=1073741824">Cloudflare Speed [Global]</option>
                                     </select>
